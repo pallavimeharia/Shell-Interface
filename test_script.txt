@@ -1,0 +1,45 @@
+#load osh
+./a.out
+
+
+
+top
+q
+
+
+
+ps
+ls -l
+cat timer.cpp
+cal
+who
+date
+history !!
+history !!
+history
+history !10
+history !0
+history !4
+history!-4
+history !!
+ls
+g++ -o osh hist.c
+./osh
+history
+ls
+g++ -std=c++11 -o timer timer.cpp
+cat sieve.cpp
+g++ sieve sieve.cpp
+g++ -o sieve sieve.cpp
+ls
+sieve
+history
+exit
+history
+./timer &
+ls
+./sieve
+
+history
+exit
+
